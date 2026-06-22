@@ -46,8 +46,8 @@ source("scripts/Prepare_IRI_data.R")
 This script:
 extracts the 28 IRI items
 prepares gender and age variables
-removes incomplete observations
-creates analysis-ready datasets
+removes incomplete observations (from the raw data: HAN_ESPRMC_2020Fall.csv etc.)
+creates analysis-ready datasets (processed data: iri_analysis_ready.csv)
 Step 2: H1 Analysis
 Run:
 source("scripts/H1_Analysis.R")
