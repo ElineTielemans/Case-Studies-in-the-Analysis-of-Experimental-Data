@@ -26,6 +26,15 @@ Repository Structure
 ├── report/
 └── README.md
 
+Notes on PDF Figures
+Some PDF files in the figures/ folder may display the message "Invalid PDF" or fail to render in GitHub's built-in previewer.
+This is a GitHub rendering issue and does not affect the files themselves. The PDF figures were generated directly from the R analysis scripts and can be viewed normally after downloading them.
+To access a figure:
+Open the PDF file in GitHub.
+Click the Download button in the upper-right corner.
+Open the downloaded file locally using a PDF viewer.
+All figure files were checked locally and are included to ensure full reproducibility of the analyses.
+
 Data
 The dataset contains Interpersonal Reactivity Index (IRI) responses extracted from the dataset used by Han (2023).
 Only the 28 IRI questionnaire items, gender information, and age variables are used in the analyses.
